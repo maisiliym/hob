@@ -2,6 +2,13 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
+    alacritty = {
+      url = file:///git/github.com/alacritty/alacritty;
+      type = "git";
+      ref = "cargoNix";
+      flake = false;
+    };
+
     dino = {
       url = file:///git/github.com/dino/dino;
       type = "git";
