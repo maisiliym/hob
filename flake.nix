@@ -2,11 +2,38 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
+    alacritty = {
+      url = file:///git/github.com/alacritty/alacritty;
+      type = "git";
+      ref = "cargoNix";
+      flake = false;
+    };
+
+    dino = {
+      url = file:///git/github.com/dino/dino;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     dunst = {
       url = file:///git/github.com/dunst-project/dunst;
       type = "git";
       ref = "master";
       flake = false;
+    };
+
+    fzf = {
+      url = file:///git/github.com/junegunn/fzf;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
+    hom = {
+      url = file:///home/li/dev/hom;
+      type = "git";
+      ref = "series/sobUyrld";
     };
 
     home-manager = {
@@ -54,6 +81,13 @@
       flake = false;
     };
 
+    neovim = {
+      url = file:///git/github.com/neovim/neovim;
+      type = "git";
+      ref = "maisiliym/dev";
+      flake = false;
+    };
+
     nix = {
       url = file:///home/li/dev/nix;
       type = "git";
@@ -61,17 +95,18 @@
       flake = false;
     };
 
-    "nix/dev" = {
-      url = file:///home/li/dev/nix;
-      type = "git";
-      ref = "dev";
-    };
-
     nixpkgs = {
       url = file:///home/li/dev/nixpkgs;
       type = "git";
       ref = "niuSpinyrQutb";
       rev = "25062e030c02eaaaf17a79c919e471f3d0ce7f9b";
+    };
+
+    nixpkgs-fmt = {
+      url = file:///git/github.com/nix-community/nixpkgs-fmt;
+      ref = "maisiliym/main";
+      type = "git";
+      flake = false;
     };
 
     nixpkgs-mozilla = {
@@ -84,13 +119,19 @@
     pkgs = {
       url = file:///home/li/dev/pkgs;
       type = "git";
-      ref = "main";
+      ref = "series/HobUyrld";
     };
 
     pkdjz = {
       url = file:///home/li/dev/pkdjz;
       type = "git";
-      ref = "main";
+      ref = "series/HobUyrldz";
+    };
+
+    skrips = {
+      url = file:///home/li/dev/skrips;
+      type = "git";
+      ref = "series/sobUyrld";
     };
 
     tree-sitter = {
@@ -114,21 +155,40 @@
       flake = false;
     };
 
+    zoxide = {
+      url = file:///git/github.com/ajeetdsouza/zoxide;
+      type = "git";
+      ref = "maisiliym/dev";
+      flake = false;
+    };
+
   };
 
-  outputs = registry@ { self, ... }:
+  outputs = registry@ { self, kor, ... }:
     let
-      inherit (builtins) mapAttrs fetchTree readFile fromJSON removeAttrs;
+      kor = registry.kor.datom;
+      inherit (builtins) mapAttrs removeAttrs;
+      inherit (kor) getFleik;
 
-      jsonPriDatom = fromJSON (readFile ./hob.json);
+      meinIndeks = removeAttrs registry [ "self" "kor" ];
 
-      meikJsonSpok = neim: valiu:
-        fetchTree valiu;
+      forkIndeks = {
+        nix = {
+          maisiliym = {
+            dev = getFleik {
+              url = file:///home/li/dev/nix;
+              type = "git";
+              ref = "dev";
+            };
+          };
+        };
+      };
 
-      jsonDatom = mapAttrs meikJsonSpok jsonPriDatom;
+      meikBrencyz = neim: fleik:
+        (forkIndeks.${neim} or { }) // { mein = fleik; };
 
-      nixDatom = removeAttrs registry [ "self" ];
+      ryzylt = mapAttrs meikBrencyz meinIndeks;
 
     in
-    { datom = nixDatom // jsonDatom; };
+    { datom = ryzylt; };
 }
