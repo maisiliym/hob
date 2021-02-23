@@ -2,6 +2,13 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
+    dino = {
+      url = file:///git/github.com/dino/dino;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     dunst = {
       url = file:///git/github.com/dunst-project/dunst;
       type = "git";
