@@ -23,6 +23,13 @@
       flake = false;
     };
 
+    fzf = {
+      url = file:///git/github.com/junegunn/fzf;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     hom = {
       url = file:///home/li/dev/hom;
       type = "git";
