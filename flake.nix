@@ -9,6 +9,12 @@
       flake = false;
     };
 
+    hom = {
+      url = file:///home/li/dev/hom;
+      type = "git";
+      ref = "series/sobUyrld";
+    };
+
     home-manager = {
       url = file:///home/li/dev/home-manager;
       type = "git";
