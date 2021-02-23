@@ -113,6 +113,12 @@
       ref = "main";
     };
 
+    skrips = {
+      url = file:///home/li/dev/skrips;
+      type = "git";
+      ref = "series/sobUyrld";
+    };
+
     tree-sitter = {
       url = file:///git/github.com/tree-sitter/tree-sitter;
       type = "git";
