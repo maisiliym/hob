@@ -144,12 +144,13 @@
 
   outputs = registry@ { self, ... }:
     let
-      inherit (builtins) mapAttrs fetchTree readFile fromJSON removeAttrs;
+      inherit (builtins) mapAttrs fetchTree readFile fromJSON removeAttrs
+        getFlake;
 
       jsonPriDatom = fromJSON (readFile ./hob.json);
 
       meikJsonSpok = neim: valiu:
-        fetchTree valiu;
+        getFlake valiu;
 
       jsonDatom = mapAttrs meikJsonSpok jsonPriDatom;
 
