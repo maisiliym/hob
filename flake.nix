@@ -110,7 +110,7 @@
     pkdjz = {
       url = file:///home/li/dev/pkdjz;
       type = "git";
-      ref = "main";
+      ref = "series/HobUyrldz";
     };
 
     skrips = {
