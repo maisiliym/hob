@@ -104,7 +104,7 @@
     pkgs = {
       url = file:///home/li/dev/pkgs;
       type = "git";
-      ref = "main";
+      ref = "series/HobUyrld";
     };
 
     pkdjz = {
