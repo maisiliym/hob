@@ -94,13 +94,6 @@
       ref = "dev";
     };
 
-    nixpkgs = {
-      url = file:///home/li/dev/nixpkgs;
-      type = "git";
-      ref = "niuSpinyrQutb";
-      rev = "25062e030c02eaaaf17a79c919e471f3d0ce7f9b";
-    };
-
     nixpkgs-mozilla = {
       url = file:///home/li/dev/nixpkgs-mozilla;
       type = "git";
