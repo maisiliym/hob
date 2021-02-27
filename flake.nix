@@ -22,6 +22,12 @@
       flake = false;
     };
 
+    base16-alacritty = {
+      url = file:///git/github.com/aaron-williamson/base16-alacritty;
+      type = "git";
+      flake = false;
+    };
+
     bufferize-vim = {
       url = file:///git/github.com/AndrewRadev/bufferize.vim;
       type = "git";
