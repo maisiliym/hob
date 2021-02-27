@@ -358,6 +358,13 @@
       flake = false;
     };
 
+    rnix-lsp = {
+      url = file:///git/github.com/nix-community/rnix-lsp;
+      ref = "li-main";
+      type = "git";
+      flake = false;
+    };
+
     ron-vim = {
       url = file:///git/github.com/ron-rs/ron.vim;
       type = "git";
