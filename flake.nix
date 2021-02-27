@@ -378,6 +378,12 @@
       flake = false;
     };
 
+    tojson = {
+      url = file:///git/github.com/meain/tojson;
+      type = "git";
+      ref = "maisiliym/SobUyrld";
+    };
+
     tree-sitter = {
       url = file:///git/github.com/tree-sitter/tree-sitter;
       type = "git";
