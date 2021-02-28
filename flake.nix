@@ -371,6 +371,13 @@
       flake = false;
     };
 
+    rust-analyzer = {
+      url = file:///git/github.com/rust-analyzer/rust-analyzer;
+      type = "git";
+      ref = "cargoNix";
+      flake = false;
+    };
+
     skrips = {
       url = file:///home/li/dev/skrips;
       type = "git";
