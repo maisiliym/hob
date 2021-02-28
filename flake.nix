@@ -128,7 +128,7 @@
     hom = {
       url = file:///home/li/dev/hom;
       type = "git";
-      ref = "series/sobUyrld";
+      ref = "mein";
     };
 
     home-manager = {
