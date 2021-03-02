@@ -348,7 +348,7 @@
     pkdjz = {
       url = file:///home/li/dev/pkdjz;
       type = "git";
-      ref = "series/HobUyrldz";
+      ref = "mein";
     };
 
     plenary-nvim = {
