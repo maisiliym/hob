@@ -244,6 +244,13 @@
       flake = false;
     };
 
+    nvim-bufferline-lua = {
+      url = file:///git/github.com/akinsho/nvim-bufferline.lua;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     nvim-colorizer-lua = {
       url = file:///git/github.com/norcalli/nvim-colorizer.lua;
       type = "git";
