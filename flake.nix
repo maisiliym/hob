@@ -463,17 +463,7 @@
 
       meinIndeks = removeAttrs registry [ "self" "kor" ];
 
-      forkIndeks = {
-        nix = {
-          maisiliym = {
-            dev = getFleik {
-              url = file:///home/li/dev/nix;
-              type = "git";
-              ref = "dev";
-            };
-          };
-        };
-      };
+      forkIndeks = (import ./forkIndeks.nix) getFleik;
 
       meikBrencyz = neim: fleik:
         (forkIndeks.${neim} or { }) // { mein = fleik; };
