@@ -138,6 +138,13 @@
       flake = false;
     };
 
+    hop-nvim = {
+      url = file:///git/github.com/phaazon/hop.nvim;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     hyraizyn = {
       url = file:///home/li/dev/hyraizyn;
       type = "git";
