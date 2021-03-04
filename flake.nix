@@ -385,6 +385,12 @@
       flake = false;
     };
 
+    sajban = {
+      url = file:///home/li/dev/sajban;
+      type = "git";
+      ref = "mein";
+    };
+
     skrips = {
       url = file:///home/li/dev/skrips;
       type = "git";
@@ -430,6 +436,12 @@
       type = "git";
       ref = "master";
       flake = false;
+    };
+
+    uniks = {
+      url = file:///home/li/dev/uniks;
+      type = "git";
+      ref = "mein";
     };
 
     vim-visual-multi = {
