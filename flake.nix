@@ -402,7 +402,7 @@
     rust-analyzer = {
       url = file:///git/github.com/rust-analyzer/rust-analyzer;
       type = "git";
-      ref = "cargoNix";
+      ref = "cargoNix-1";
       flake = false;
     };
 
