@@ -52,6 +52,13 @@
       flake = false;
     };
 
+    crate2nix = {
+      url = file:///git/github.com/kolloch/crate2nix;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     dino = {
       url = file:///git/github.com/dino/dino;
       type = "git";
