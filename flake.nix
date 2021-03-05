@@ -318,6 +318,13 @@
       flake = false;
     };
 
+    nvim-treesitter-textobjects = {
+      url = file:///git/github.com/nvim-treesitter/nvim-treesitter-textobjects;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     nvim-tree-lua = {
       url = file:///git/github.com/kyazdani42/nvim-tree.lua;
       type = "git";
