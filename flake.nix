@@ -191,6 +191,14 @@
       flake = false;
     };
 
+    LuaFormatter = {
+      url = file:///git/github.com/Koihik/LuaFormatter;
+      type = "git";
+      ref = "master";
+      flake = false;
+      submodules = true; # hak
+    };
+
     metastriz = {
       url = file:///home/li/dev/metastriz;
       type = "git";
