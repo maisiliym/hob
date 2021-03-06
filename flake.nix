@@ -138,6 +138,13 @@
       ref = "mein";
     };
 
+    /* Leizi Hak */
+    homDev = {
+      url = file:///home/li/dev/hom;
+      type = "git";
+      ref = "series/nioviNiks";
+    };
+
     home-manager = {
       url = file:///home/li/dev/home-manager;
       type = "git";
