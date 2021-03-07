@@ -411,7 +411,7 @@
 
     rnix-lsp = {
       url = file:///git/github.com/nix-community/rnix-lsp;
-      ref = "li-main";
+      ref = "cargoNix-1";
       type = "git";
       flake = false;
     };
