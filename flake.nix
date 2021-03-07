@@ -199,6 +199,14 @@
       submodules = true; # hak
     };
 
+    lua-language-server = {
+      url = file:///git/github.com/sumneko/lua-language-server;
+      type = "git";
+      ref = "master";
+      flake = false;
+      submodules = true;
+    };
+
     metastriz = {
       url = file:///home/li/dev/metastriz;
       type = "git";
