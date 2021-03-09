@@ -80,6 +80,13 @@
       flake = false;
     };
 
+    express_line-nvim = {
+      url = file:///git/github.com/tjdevries/express_line.nvim;
+      type = "git";
+      ref = "inactive";
+      flake = false;
+    };
+
     formatter-nvim = {
       url = file:///git/github.com/mhartington/formatter.nvim;
       type = "git";
