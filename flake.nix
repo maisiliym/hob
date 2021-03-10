@@ -242,7 +242,7 @@
     neovim = {
       url = file:///git/github.com/neovim/neovim;
       type = "git";
-      ref = "maisiliym/dev";
+      ref = "maisiliym/dev-1";
       flake = false;
     };
 
