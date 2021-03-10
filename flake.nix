@@ -22,6 +22,13 @@
       flake = false;
     };
 
+    beacon-nvim = {
+      url = file:///git/github.com/DanilaMihailov/beacon.nvim;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     base16-alacritty = {
       url = file:///git/github.com/aaron-williamson/base16-alacritty;
       type = "git";
@@ -299,6 +306,13 @@
       url = file:///git/github.com/norcalli/nvim-colorizer.lua;
       type = "git";
       ref = "master";
+      flake = false;
+    };
+
+    nvim-cursorline = {
+      url = file:///git/github.com/yamatsum/nvim-cursorline;
+      type = "git";
+      ref = "main";
       flake = false;
     };
 
