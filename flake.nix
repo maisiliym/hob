@@ -283,7 +283,7 @@
 
     nvim-base16-lua = {
       url = file:///git/github.com/norcalli/nvim-base16.lua;
-      ref = "maisiliym/treesitter";
+      ref = "maisiliym/mein";
       type = "git";
       flake = false;
     };
