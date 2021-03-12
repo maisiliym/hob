@@ -503,6 +503,12 @@
       ref = "mein";
     };
 
+    uniksOS = {
+      url = file:///home/li/dev/mkUniksOS;
+      type = "git";
+      ref = "siri/SobUyrld";
+    };
+
     vim-visual-multi = {
       url = file:///git/github.com/mg979/vim-visual-multi;
       type = "git";
