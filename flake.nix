@@ -404,12 +404,6 @@
       flake = false;
     };
 
-    pkgs = {
-      url = file:///home/li/dev/pkgs;
-      type = "git";
-      ref = "series/HobUyrld";
-    };
-
     pkdjz = {
       url = file:///home/li/dev/pkdjz;
       type = "git";
