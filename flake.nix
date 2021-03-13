@@ -176,7 +176,7 @@
     hyraizyn = {
       url = file:///home/li/dev/hyraizyn;
       type = "git";
-      ref = "series/splitMetastriz";
+      ref = "mein";
     };
 
     kommentary = {
