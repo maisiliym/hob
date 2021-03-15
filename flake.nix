@@ -253,6 +253,12 @@
       flake = false;
     };
 
+    niovi = {
+      url = file:///home/li/dev/niovi;
+      type = "git";
+      ref = "siri/legysi";
+    };
+
     nix = {
       url = file:///home/li/dev/nix;
       type = "git";
