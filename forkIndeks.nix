@@ -2,10 +2,11 @@ getFleik:
 {
   neovim = {
     maisiliym = {
-      mein = getFleik {
+      niovi = getFleik {
         url = file:///git/github.com/neovim/neovim;
         type = "git";
-        ref = "maisiliym/dev-1";
+        ref = "maisiliym/ts19";
+        rev = "fbf6241a41e0668f8d2386ca8b072e47dc0e4a0c";
         flake = false;
       };
     };
