@@ -358,7 +358,7 @@
     nvim-treesitter = {
       url = file:///git/github.com/nvim-treesitter/nvim-treesitter;
       type = "git";
-      ref = "maisiliym/dev";
+      ref = "master";
       flake = false;
     };
 
