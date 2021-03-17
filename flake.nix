@@ -256,7 +256,7 @@
     niovi = {
       url = file:///home/li/dev/niovi;
       type = "git";
-      ref = "siri/legysi";
+      ref = "siri/iuniksiz";
     };
 
     nix = {
