@@ -491,7 +491,7 @@
     tree-sitter-nix = {
       url = file:///git/github.com/cstrahan/tree-sitter-nix;
       type = "git";
-      ref = "master";
+      ref = "ts19";
       flake = false;
     };
 
