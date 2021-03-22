@@ -66,6 +66,13 @@
       flake = false;
     };
 
+    cyclone = {
+      url = file:///git/github.com/justinethier/cyclone;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     dino = {
       url = file:///git/github.com/dino/dino;
       type = "git";
@@ -143,6 +150,13 @@
       url = file:///git/github.com/lewis6991/gitsigns.nvim;
       type = "git";
       ref = "main";
+      flake = false;
+    };
+
+    guix = {
+      url = file:///git/git.savannah.gnu.org/git/guix;
+      type = "git";
+      ref = "master";
       flake = false;
     };
 
