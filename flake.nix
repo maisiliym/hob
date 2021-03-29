@@ -153,6 +153,13 @@
       flake = false;
     };
 
+    guile-vim = {
+      url = file:///git/github.com/HiPhish/guile.vim;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     guix = {
       url = file:///git/git.savannah.gnu.org/git/guix;
       type = "git";
