@@ -535,6 +535,13 @@
       ref = "siri/SobUyrld";
     };
 
+    vim-shen = {
+      url = file:///git/github.com/nimaai/vim-shen;
+      type = "git";
+      ref = "master";
+      flake = false;
+    };
+
     vim-visual-multi = {
       url = file:///git/github.com/mg979/vim-visual-multi;
       type = "git";
