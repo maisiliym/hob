@@ -200,6 +200,12 @@
       ref = "mein";
     };
 
+    kibord = {
+      url = file:///home/li/dev/kibord;
+      type = "git";
+      ref = "mein";
+    };
+
     kommentary = {
       url = file:///git/github.com/b3nj5m1n/kommentary;
       type = "git";
