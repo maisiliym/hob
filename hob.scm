@@ -17,6 +17,10 @@
  (commit #:accessor Spok.commit
          #:init-keyword #:commit))
 
+(define hob-data
+ (read hob-data-port) )
+
 (define hob
- (let ((empty-hob (make Hob)))
-  () ) )
+ (let ((empty-hob (make Hob))
+       (hob-data (read hob-data-port) ) )
+  (begin () ) ) )
