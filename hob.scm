@@ -6,19 +6,19 @@
   #:use-module (guix packages)
   #:export (coleremak))
 
-;; (define-class Hob ()
-;;  (spoks #:accessor Hob.spoks
-;;         #:init-form (make-hash-table)))
+(define-class <hob> ()
+  (spoks #:init-form (make-hash-table)
+	  #:getter ->spoks))
 
-;; (define-class Spok ()
-;;  (links #:accessor Spok.links
-;;         #:init-keyword #:links)
-;;  (hac #:accessor Spok.hac
-;;       #:init-keyword #:hac))
+(define-class <spok> ()
+  (links #:init-keyword #:links
+	 #:getter ->links)
+  (hac #:init-keyword #:hac
+       #:getter ->hac))
 
-;; (define-class GitSpok (Spok)
-;;  (commit #:accessor Spok.commit
-;;          #:init-keyword #:commit))
+(define-class <gitspok> (<spok>)
+  (commit #:init-keyword #:commit
+	  #:getter ->commit))
 
 (define (unsafe-local-origin path)
   (origin
