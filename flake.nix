@@ -3,589 +3,408 @@
 
   inputs = {
     alacritty = {
-      url = file:///git/github.com/alacritty/alacritty;
-      type = "git";
-      ref = "cargoNix";
+      url = github:alacritty/alacritty;
       flake = false;
     };
 
     astronauta-nvim = {
-      url = file:///git/github.com/tjdevries/astronauta.nvim;
-      type = "git";
-      ref = "master";
+      url = github:tjdevries/astronauta.nvim;
       flake = false;
     };
 
     barbar-nvim = {
-      url = file:///git/github.com/romgrk/barbar.nvim;
-      type = "git";
+      url = github:romgrk/barbar.nvim;
       flake = false;
     };
 
     beacon-nvim = {
-      url = file:///git/github.com/DanilaMihailov/beacon.nvim;
-      type = "git";
-      ref = "master";
+      url = github:DanilaMihailov/beacon.nvim;
       flake = false;
     };
 
     base16-alacritty = {
-      url = file:///git/github.com/aaron-williamson/base16-alacritty;
-      type = "git";
+      url = github:aaron-williamson/base16-alacritty;
       flake = false;
     };
 
     bufferize-vim = {
-      url = file:///git/github.com/AndrewRadev/bufferize.vim;
-      type = "git";
+      url = github:AndrewRadev/bufferize.vim;
       flake = false;
     };
 
     BufOnly-nvim = {
-      url = file:///git/github.com/numToStr/BufOnly.nvim;
-      type = "git";
+      url = github:numToStr/BufOnly.nvim;
       flake = false;
     };
 
     completion-nvim = {
-      url = file:///git/github.com/nvim-lua/completion-nvim;
-      type = "git";
+      url = github:nvim-lua/completion-nvim;
       flake = false;
     };
 
     completion-buffers = {
-      url = file:///git/github.com/steelsojka/completion-buffers;
-      type = "git";
+      url = github:steelsojka/completion-buffers;
       flake = false;
     };
 
     crate2nix = {
-      url = file:///git/github.com/kolloch/crate2nix;
-      type = "git";
-      ref = "master";
+      url = github:kolloch/crate2nix;
       flake = false;
     };
 
     cyclone = {
-      url = file:///git/github.com/justinethier/cyclone;
-      type = "git";
-      ref = "master";
+      url = github:justinethier/cyclone;
       flake = false;
     };
 
     dino = {
-      url = file:///git/github.com/dino/dino;
-      type = "git";
-      ref = "master";
+      url = github:dino/dino;
       flake = false;
     };
 
     dunst = {
-      url = file:///git/github.com/dunst-project/dunst;
-      type = "git";
-      ref = "master";
+      url = github:dunst-project/dunst;
       flake = false;
     };
 
     dwm-vim = {
-      url = file:///git/github.com/spolu/dwm.vim;
-      type = "git";
-      ref = "master";
+      url = github:spolu/dwm.vim;
       flake = false;
     };
 
     express_line-nvim = {
-      url = file:///git/github.com/tjdevries/express_line.nvim;
-      type = "git";
-      ref = "inactive";
+      url = github:tjdevries/express_line.nvim;
       flake = false;
     };
 
     formatter-nvim = {
-      url = file:///git/github.com/mhartington/formatter.nvim;
-      type = "git";
+      url = github:mhartington/formatter.nvim;
       flake = false;
     };
 
     FTerm-nvim = {
-      url = file:///git/github.com/numToStr/FTerm.nvim;
-      type = "git";
-      ref = "master";
+      url = github:numToStr/FTerm.nvim;
       flake = false;
     };
 
     fzf = {
-      url = file:///git/github.com/junegunn/fzf;
-      type = "git";
-      ref = "master";
+      url = github:junegunn/fzf;
       flake = false;
     };
 
     fzf-lsp-nvim = {
-      url = file:///git/github.com/gfanto/fzf-lsp.nvim;
-      type = "git";
+      url = github:gfanto/fzf-lsp.nvim;
       flake = false;
     };
 
     fzf-vim = {
-      url = file:///git/github.com/junegunn/fzf.vim;
-      type = "git";
+      url = github:junegunn/fzf.vim;
       flake = false;
     };
 
     galaxyline-nvim = {
-      url = file:///git/github.com/glepnir/galaxyline.nvim;
-      ref = "main";
-      type = "git";
+      url = github:glepnir/galaxyline.nvim;
       flake = false;
     };
 
     gina-vim = {
-      url = file:///git/github.com/lambdalisue/gina.vim;
-      type = "git";
+      url = github:lambdalisue/gina.vim;
       flake = false;
     };
 
     gitsigns-nvim = {
-      url = file:///git/github.com/lewis6991/gitsigns.nvim;
-      type = "git";
-      ref = "main";
+      url = github:lewis6991/gitsigns.nvim;
       flake = false;
     };
 
     guile-vim = {
-      url = file:///git/github.com/HiPhish/guile.vim;
-      type = "git";
-      ref = "master";
+      url = github:HiPhish/guile.vim;
       flake = false;
-    };
-
-    guix = {
-      url = file:///git/git.savannah.gnu.org/git/guix;
-      type = "git";
-      ref = "master";
-      flake = false;
-    };
-
-    hom = {
-      url = file:///home/li/dev/hom;
-      type = "git";
-      ref = "mein";
-    };
-
-    /* Leizi Hak */
-    homDev = {
-      url = file:///home/li/dev/hom;
-      type = "git";
-      ref = "series/nioviNiks";
     };
 
     home-manager = {
-      url = file:///home/li/dev/home-manager;
-      type = "git";
-      ref = "maisiliym/dunst";
-      flake = false;
+      url = github:nix-community/home-manager;
+      flake = false;      
     };
 
     hop-nvim = {
-      url = file:///git/github.com/phaazon/hop.nvim;
-      type = "git";
-      ref = "master";
+      url = github:phaazon/hop.nvim;
       flake = false;
     };
 
-    hyraizyn = {
-      url = file:///home/li/dev/hyraizyn;
-      type = "git";
-      ref = "mein";
-    };
-
     kibord = {
-      url = file:///home/li/dev/kibord;
-      type = "git";
-      ref = "mein";
+      url = github:maisiliym/kibord;
     };
 
     kommentary = {
-      url = file:///git/github.com/b3nj5m1n/kommentary;
-      type = "git";
-      ref = "main";
+      url = github:b3nj5m1n/kommentary;
       flake = false;
     };
 
     lowdown = {
-      url = file:///git/github.com/kristapsdz/lowdown;
-      type = "git";
-      ref = "master";
+      url = github:kristapsdz/lowdown;
       flake = false;
     };
 
     lspsaga-nvim = {
-      url = file:///git/github.com/glepnir/lspsaga.nvim;
-      type = "git";
+      url = github:glepnir/lspsaga.nvim;
       flake = false;
     };
 
     lsp-status-nvim = {
-      url = file:///git/github.com/nvim-lua/lsp-status.nvim;
-      type = "git";
+      url = github:nvim-lua/lsp-status.nvim;
       flake = false;
     };
 
     LuaFormatter = {
-      url = file:///git/github.com/Koihik/LuaFormatter;
-      type = "git";
-      ref = "master";
+      url = github:Koihik/LuaFormatter;
       flake = false;
-      submodules = true; # hak
     };
 
     lua-language-server = {
-      url = file:///git/github.com/sumneko/lua-language-server;
-      type = "git";
-      ref = "master";
+      url = github:sumneko/lua-language-server;
       flake = false;
-      submodules = true;
-    };
-
-    metastriz = {
-      url = file:///home/li/dev/metastriz;
-      type = "git";
-      ref = "series/sobUyrld";
     };
 
     maisiliym = {
-      url = file:///home/li/dev/maisiliym;
-      type = "git";
-      ref = "main";
+      url = github:maisiliym/maisiliym;
     };
-
-    mozPkgs = {
-      url = file:///home/li/dev/mozPkgs;
-      type = "git";
-      ref = "iunyfai";
-    };
-
+    
     naersk = {
-      url = file:///git/github.com/nmattia/naersk;
-      type = "git";
-      ref = "master";
+      url = github:nmattia/naersk;
       flake = false;
     };
 
     neovim = {
-      url = file:///git/github.com/neovim/neovim;
-      type = "git";
-      ref = "maisiliym/dev-1";
+      url = github:neovim/neovim;
       flake = false;
-    };
-
-    niovi = {
-      url = file:///home/li/dev/niovi;
-      type = "git";
-      ref = "siri/iuniksiz";
     };
 
     nix = {
-      url = file:///home/li/dev/nix;
-      type = "git";
-      ref = "master";
-      flake = false;
+      url = github:/NixOS/nix;
     };
 
     nixpkgs = {
-      url = file:///home/li/dev/nixpkgs;
-      type = "git";
-      ref = "niuSpinyrTs";
+      url = github:/NixOS/nixpkgs;
     };
 
     nixpkgs-fmt = {
-      url = file:///git/github.com/nix-community/nixpkgs-fmt;
-      ref = "maisiliym/main";
-      type = "git";
+      url = github:nix-community/nixpkgs-fmt;
       flake = false;
     };
 
     nixpkgs-mozilla = {
-      url = file:///home/li/dev/nixpkgs-mozilla;
-      type = "git";
-      ref = "master";
+      url = github:mozilla/nixpkgs-mozilla;
       flake = false;
     };
 
     nvim-autopairs = {
-      url = file:///git/github.com/windwp/nvim-autopairs;
-      type = "git";
-      ref = "master";
+      url = github:windwp/nvim-autopairs;
       flake = false;
     };
 
     nvim-base16-lua = {
-      url = file:///git/github.com/norcalli/nvim-base16.lua;
-      ref = "maisiliym/mein";
-      type = "git";
+      url = github:norcalli/nvim-base16.lua;
       flake = false;
     };
 
     nvim-bufferline-lua = {
-      url = file:///git/github.com/akinsho/nvim-bufferline.lua;
-      type = "git";
-      ref = "master";
+      url = github:akinsho/nvim-bufferline.lua;
       flake = false;
     };
 
     nvim-colorizer-lua = {
-      url = file:///git/github.com/norcalli/nvim-colorizer.lua;
-      type = "git";
-      ref = "master";
+      url = github:norcalli/nvim-colorizer.lua;
       flake = false;
     };
 
     nvim-cursorline = {
-      url = file:///git/github.com/yamatsum/nvim-cursorline;
-      type = "git";
-      ref = "main";
+      url = github:yamatsum/nvim-cursorline;
       flake = false;
     };
 
     nvim-fzf = {
-      url = file:///git/github.com/vijaymarupudi/nvim-fzf;
-      type = "git";
-      ref = "master";
+      url = github:vijaymarupudi/nvim-fzf;
       flake = false;
     };
 
     nvim-fzf-commands = {
-      url = file:///git/github.com/vijaymarupudi/nvim-fzf-commands;
-      type = "git";
-      ref = "master";
+      url = github:vijaymarupudi/nvim-fzf-commands;
       flake = false;
     };
 
     nvim-lazygit = {
-      url = file:///git/github.com/kdheepak/lazygit.nvim;
-      type = "git";
+      url = github:kdheepak/lazygit.nvim;
       flake = false;
     };
 
     nvim-lspconfig = {
-      url = file:///git/github.com/neovim/nvim-lspconfig;
-      type = "git";
-      ref = "master";
+      url = github:neovim/nvim-lspconfig;
       flake = false;
     };
 
     nvim-lspfuzzy = {
-      url = file:///git/github.com/ojroques/nvim-lspfuzzy;
-      type = "git";
+      url = github:ojroques/nvim-lspfuzzy;
       flake = false;
     };
 
     nvim-treesitter = {
-      url = file:///git/github.com/nvim-treesitter/nvim-treesitter;
-      type = "git";
-      ref = "master";
+      url = github:nvim-treesitter/nvim-treesitter;
       flake = false;
     };
 
     nvim-treesitter-context = {
-      url = file:///git/github.com/romgrk/nvim-treesitter-context;
-      type = "git";
+      url = github:romgrk/nvim-treesitter-context;
       flake = false;
     };
 
     nvim-treesitter-refactor = {
-      url = file:///git/github.com/nvim-treesitter/nvim-treesitter-refactor;
-      type = "git";
-      ref = "master";
+      url = github:nvim-treesitter/nvim-treesitter-refactor;
       flake = false;
     };
 
     nvim-treesitter-textobjects = {
-      url = file:///git/github.com/nvim-treesitter/nvim-treesitter-textobjects;
-      type = "git";
-      ref = "master";
+      url = github:nvim-treesitter/nvim-treesitter-textobjects;
       flake = false;
     };
 
     nvim-tree-lua = {
-      url = file:///git/github.com/kyazdani42/nvim-tree.lua;
-      type = "git";
-      ref = "maisiliym/dev";
+      url = github:kyazdani42/nvim-tree.lua;
       flake = false;
     };
 
     nvim-web-devicons = {
-      url = file:///git/github.com/kyazdani42/nvim-web-devicons;
-      type = "git";
-      ref = "master";
+      url = github:kyazdani42/nvim-web-devicons;
       flake = false;
     };
 
     lir-nvim = {
-      url = file:///git/github.com/tamago324/lir.nvim;
-      type = "git";
-      ref = "master";
+      url = github:tamago324/lir.nvim;
       flake = false;
     };
 
     neogit = {
-      url = file:///git/github.com/TimUntersberger/neogit;
-      type = "git";
-      ref = "master";
+      url = github:TimUntersberger/neogit;
       flake = false;
     };
 
-    pkdjz = {
-      url = file:///home/li/dev/pkdjz;
-      type = "git";
-      ref = "mein";
-    };
-
     plenary-nvim = {
-      url = file:///git/github.com/nvim-lua/plenary.nvim;
-      type = "git";
-      ref = "master";
+      url = github:nvim-lua/plenary.nvim;
       flake = false;
     };
 
     popup-nvim = {
-      url = file:///git/github.com/nvim-lua/popup.nvim;
-      type = "git";
-      ref = "master";
+      url = github:nvim-lua/popup.nvim;
       flake = false;
     };
 
     rnix-lsp = {
-      url = file:///git/github.com/nix-community/rnix-lsp;
-      ref = "cargoNix-1";
-      type = "git";
+      url = github:nix-community/rnix-lsp;
       flake = false;
     };
 
     ron-vim = {
-      url = file:///git/github.com/ron-rs/ron.vim;
-      type = "git";
+      url = github:ron-rs/ron.vim;
       flake = false;
     };
 
     rust-analyzer = {
-      url = file:///git/github.com/rust-analyzer/rust-analyzer;
-      type = "git";
-      ref = "cargoNix-1";
+      url = github:rust-analyzer/rust-analyzer;
       flake = false;
     };
 
     sajban = {
-      url = file:///home/li/dev/sajban;
-      type = "git";
-      ref = "mein";
+      url = github:maisiliym/sajban;
+      flake = false;
     };
 
     skrips = {
-      url = file:///home/li/dev/skrips;
-      type = "git";
-      ref = "series/sobUyrld";
+      url = github:maisiliym/skrips;
     };
 
     telescope-nvim = {
-      url = file:///git/github.com/nvim-lua/telescope.nvim;
-      type = "git";
-      ref = "master";
+      url = github:nvim-lua/telescope.nvim;
       flake = false;
     };
 
     tokei-vim = {
-      url = file:///git/github.com/vmchale/tokei-vim;
-      type = "git";
-      ref = "master";
+      url = github:vmchale/tokei-vim;
       flake = false;
     };
 
     tojson = {
-      url = file:///git/github.com/meain/tojson;
-      type = "git";
-      ref = "maisiliym/SobUyrld";
+      url = github:meain/tojson;
+      flake = false;
     };
 
     tree-sitter = {
-      url = file:///git/github.com/tree-sitter/tree-sitter;
-      type = "git";
-      ref = "master";
+      url = github:tree-sitter/tree-sitter;
       flake = false;
     };
 
     tree-sitter-nix = {
-      url = file:///git/github.com/cstrahan/tree-sitter-nix;
-      type = "git";
-      ref = "ts19";
+      url = github:cstrahan/tree-sitter-nix;
       flake = false;
     };
 
     tree-sitter-rust = {
-      url = file:///git/github.com/tree-sitter/tree-sitter-rust;
-      type = "git";
-      ref = "master";
+      url = github:tree-sitter/tree-sitter-rust;
       flake = false;
     };
 
-    uniks = {
-      url = file:///home/li/dev/uniks;
-      type = "git";
-      ref = "mein";
-    };
-
-    uniksOS = {
-      url = file:///home/li/dev/mkUniksOS;
-      type = "git";
-      ref = "siri/SobUyrld";
-    };
-
     vim-shen = {
-      url = file:///git/github.com/nimaai/vim-shen;
-      type = "git";
-      ref = "master";
+      url = github:nimaai/vim-shen;
       flake = false;
     };
 
     vim-visual-multi = {
-      url = file:///git/github.com/mg979/vim-visual-multi;
-      type = "git";
-      ref = "master";
+      url = github:mg979/vim-visual-multi;
       flake = false;
     };
 
     zoxide = {
-      url = file:///git/github.com/ajeetdsouza/zoxide;
-      type = "git";
-      ref = "maisiliym/dev";
+      url = github:ajeetdsouza/zoxide;
       flake = false;
     };
 
     zoxide-vim = {
-      url = file:///git/github.com/nanotee/zoxide.vim;
-      type = "git";
-      ref = "master";
+      url = github:nanotee/zoxide.vim;
       flake = false;
     };
 
   };
 
-  outputs = registry@ { self, kor, ... }:
+  outputs = inputs@ { self, ... }:
     let
-      kor = registry.kor.datom;
-      inherit (builtins) mapAttrs removeAttrs;
-      inherit (kor) getFleik;
+      inherit (builtins) mapAttrs removeAttrs getFlake
+        concatStringsSep;
 
-      meinIndeks = removeAttrs registry [ "self" "kor" ];
+      optionalString = cond: string: if cond then string else "";
+      
+      getFleik = fleik:
+        let
+          url = concatStringsSep "" [
+            (optionalString (fleik.type == "git") "git+")
+            fleik.url
+            "?"
+            (optionalString (fleik ? ref) "ref=${fleik.ref}")
+            (optionalString (fleik ? rev) "${optionalString (fleik ? ref) "&"}rev=${fleik.rev}")
+          ];
+          noFlakeNix = fleik ? flake && (!fleik.flake);
+          kol = if noFlakeNix then fetchTree else getFlake;
+        in
+          kol url;
+
+      meinIndeks = removeAttrs inputs [ "self" ];
 
       forkIndeks = (import ./forkIndeks.nix) getFleik;
 
       meikBrencyz = neim: fleik:
-        (forkIndeks.${neim} or { }) // { mein = fleik; };
+        let forks = forkIndeks.${neim} or { };
+        in  forks // { mein = fleik;} ;
 
       ryzylt = mapAttrs meikBrencyz meinIndeks;
 
     in
-    { datom = ryzylt; };
+      { Hob = ryzylt; };
 }
