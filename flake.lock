@@ -288,6 +288,21 @@
         "type": "github"
       }
     },
+    "emacs-overlay": {
+      "locked": {
+        "lastModified": 1633944408,
+        "narHash": "sha256-MfWVgOe6UHC0GvR8vDMVmXZZRCpfQ77JynmkUqpCFW4=",
+        "owner": "nix-community",
+        "repo": "emacs-overlay",
+        "rev": "c8656f7150ac773cd042204be112032149bf7711",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "emacs-overlay",
+        "type": "github"
+      }
+    },
     "express_line-nvim": {
       "flake": false,
       "locked": {
@@ -301,6 +316,27 @@
       "original": {
         "owner": "tjdevries",
         "repo": "express_line.nvim",
+        "type": "github"
+      }
+    },
+    "fenix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rust-analyzer-src": "rust-analyzer-src"
+      },
+      "locked": {
+        "lastModified": 1633919568,
+        "narHash": "sha256-QBGPNbvrVaK2bLOijw7YJ1XXsFhSxQLiTiT2c14yTvg=",
+        "owner": "nix-community",
+        "repo": "fenix",
+        "rev": "61a092301e33d11605c23eb983af10104d72ef8b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "fenix",
         "type": "github"
       }
     },
@@ -1201,7 +1237,9 @@
         "dino": "dino",
         "dunst": "dunst",
         "dwm-vim": "dwm-vim",
+        "emacs-overlay": "emacs-overlay",
         "express_line-nvim": "express_line-nvim",
+        "fenix": "fenix",
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "formatter-nvim": "formatter-nvim",
@@ -1276,6 +1314,23 @@
       },
       "original": {
         "owner": "rust-analyzer",
+        "repo": "rust-analyzer",
+        "type": "github"
+      }
+    },
+    "rust-analyzer-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1633889353,
+        "narHash": "sha256-t6SdHsA+f+g95EDF+nXVtSsaJclsPsm8ZcXycrtkBGk=",
+        "owner": "rust-analyzer",
+        "repo": "rust-analyzer",
+        "rev": "ed4b312fa777ebb39ba1348fe3df574c441a485e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rust-analyzer",
+        "ref": "nightly",
         "repo": "rust-analyzer",
         "type": "github"
       }

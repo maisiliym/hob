@@ -72,9 +72,16 @@
       flake = false;
     };
 
+    emacs-overlay.url = github:nix-community/emacs-overlay;
+
     express_line-nvim = {
       url = github:tjdevries/express_line.nvim;
       flake = false;
+    };
+
+    fenix = {
+      url = github:nix-community/fenix;
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     flake-compat = {
