@@ -77,6 +77,13 @@
       flake = false;
     };
 
+    flake-compat = {
+      url = github:edolstra/flake-compat;
+      flake = false;
+    };
+
+    flake-utils.url = github:numtide/flake-utils;
+
     formatter-nvim = {
       url = github:mhartington/formatter.nvim;
       flake = false;
@@ -182,10 +189,11 @@
 
     nix = {
       url = github:/NixOS/nix;
+      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     nixpkgs = {
-      url = github:/NixOS/nixpkgs;
+      url = github:NixOS/nixpkgs/96606addcedb821d311c701788062b8864346838;
     };
 
     nixpkgs-fmt = {
