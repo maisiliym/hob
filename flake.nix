@@ -137,7 +137,7 @@
     };
 
     home-manager = {
-      url = github:nix-community/home-manager;
+      url = github:maisiliym/home-manager/nixProfileCmd;
       flake = false;      
     };
 
@@ -344,11 +344,6 @@
 
     tokei-vim = {
       url = github:vmchale/tokei-vim;
-      flake = false;
-    };
-
-    tojson = {
-      url = github:meain/tojson;
       flake = false;
     };
 

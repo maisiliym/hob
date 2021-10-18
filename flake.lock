@@ -327,11 +327,11 @@
         "rust-analyzer-src": "rust-analyzer-src"
       },
       "locked": {
-        "lastModified": 1633919568,
-        "narHash": "sha256-QBGPNbvrVaK2bLOijw7YJ1XXsFhSxQLiTiT2c14yTvg=",
+        "lastModified": 1634520836,
+        "narHash": "sha256-3zVfCUrsUTVsxZ0lbR4h6wyRci0eabxARxFoE9jkKMI=",
         "owner": "nix-community",
         "repo": "fenix",
-        "rev": "61a092301e33d11605c23eb983af10104d72ef8b",
+        "rev": "939355d1471a57707483f7991e86423a8ebbab7b",
         "type": "github"
       },
       "original": {
@@ -534,15 +534,16 @@
     "home-manager": {
       "flake": false,
       "locked": {
-        "lastModified": 1633531796,
-        "narHash": "sha256-fm1tcPf9yB+4ySxKETQk6hVpmbYZPVb27fEJFuIz6fA=",
-        "owner": "nix-community",
+        "lastModified": 1634543704,
+        "narHash": "sha256-+8Xo80hDqpgUc6+nifslYtuacq9nnJr7eSTBA3N6cJA=",
+        "owner": "maisiliym",
         "repo": "home-manager",
-        "rev": "d9fe208f3ccd7047a29eb31fd0cd3191c4445323",
+        "rev": "bc64fd2322ae673157df06dfcfb02831cc1508b9",
         "type": "github"
       },
       "original": {
-        "owner": "nix-community",
+        "owner": "maisiliym",
+        "ref": "nixProfileCmd",
         "repo": "home-manager",
         "type": "github"
       }
@@ -1291,7 +1292,6 @@
         "sajban": "sajban",
         "skrips": "skrips",
         "telescope-nvim": "telescope-nvim",
-        "tojson": "tojson",
         "tokei-vim": "tokei-vim",
         "tree-sitter": "tree-sitter",
         "tree-sitter-nix": "tree-sitter-nix",
@@ -1321,11 +1321,11 @@
     "rust-analyzer-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1633889353,
-        "narHash": "sha256-t6SdHsA+f+g95EDF+nXVtSsaJclsPsm8ZcXycrtkBGk=",
+        "lastModified": 1634066987,
+        "narHash": "sha256-YgoOqnB0OrplGOK5PEmedZp4ucgN6Ax6MxCbQrhVK4Y=",
         "owner": "rust-analyzer",
         "repo": "rust-analyzer",
-        "rev": "ed4b312fa777ebb39ba1348fe3df574c441a485e",
+        "rev": "137ac67f5dd10d8a5e83e9eeb7600993e9886c8a",
         "type": "github"
       },
       "original": {
@@ -1379,22 +1379,6 @@
       "original": {
         "owner": "nvim-lua",
         "repo": "telescope.nvim",
-        "type": "github"
-      }
-    },
-    "tojson": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1600866627,
-        "narHash": "sha256-l8LS+8jwndJzjAo9bHWqdvViHB3G7U4XgfVHGLspInI=",
-        "owner": "meain",
-        "repo": "tojson",
-        "rev": "787946c18c4bb396d449e8cf528cbc5caf2c54b7",
-        "type": "github"
-      },
-      "original": {
-        "owner": "meain",
-        "repo": "tojson",
         "type": "github"
       }
     },
