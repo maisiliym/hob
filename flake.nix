@@ -138,7 +138,7 @@
 
     home-manager = {
       url = github:maisiliym/home-manager/nixProfileCmd;
-      flake = false;      
+      flake = false;
     };
 
     hop-nvim = {
@@ -183,7 +183,7 @@
     maisiliym = {
       url = github:maisiliym/maisiliym;
     };
-    
+
     naersk = {
       url = github:nmattia/naersk;
       flake = false;
@@ -313,6 +313,11 @@
       flake = false;
     };
 
+    ql2nix = {
+      url = github:SquircleSpace/ql2nix;
+      flake = false;
+    };
+
     rnix-lsp = {
       url = github:nix-community/rnix-lsp;
       flake = false;
@@ -390,7 +395,7 @@
         concatStringsSep;
 
       optionalString = cond: string: if cond then string else "";
-      
+
       getFleik = fleik:
         let
           url = concatStringsSep "" [
@@ -403,7 +408,7 @@
           noFlakeNix = fleik ? flake && (!fleik.flake);
           kol = if noFlakeNix then fetchTree else getFlake;
         in
-          kol url;
+        kol url;
 
       meinIndeks = removeAttrs inputs [ "self" ];
 
@@ -411,10 +416,10 @@
 
       meikBrencyz = neim: fleik:
         let forks = forkIndeks.${neim} or { };
-        in  forks // { mein = fleik;} ;
+        in forks // { mein = fleik; };
 
       ryzylt = mapAttrs meikBrencyz meinIndeks;
 
     in
-      { Hob = ryzylt; };
+    { Hob = ryzylt; };
 }

@@ -1171,6 +1171,22 @@
         "type": "github"
       }
     },
+    "ql2nix": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628619956,
+        "narHash": "sha256-OGIE+0ZYnd5u6+LQYW68ayMzyvgcssoO0FWsh4/HPe8=",
+        "owner": "SquircleSpace",
+        "repo": "ql2nix",
+        "rev": "39cbd136b656c31717248b8527a55aeff5404cb6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SquircleSpace",
+        "repo": "ql2nix",
+        "type": "github"
+      }
+    },
     "qmk_firmware": {
       "flake": false,
       "locked": {
@@ -1286,6 +1302,7 @@
         "nvim-web-devicons": "nvim-web-devicons",
         "plenary-nvim": "plenary-nvim",
         "popup-nvim": "popup-nvim",
+        "ql2nix": "ql2nix",
         "rnix-lsp": "rnix-lsp",
         "ron-vim": "ron-vim",
         "rust-analyzer": "rust-analyzer",
