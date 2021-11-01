@@ -338,6 +338,11 @@
       flake = false;
     };
 
+    shen-mode = {
+      url = github:NHALX/shen-mode;
+      flake = false;
+    };
+
     skrips = {
       url = github:maisiliym/skrips;
     };

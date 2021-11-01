@@ -737,11 +737,11 @@
     },
     "maisiliym": {
       "locked": {
-        "lastModified": 1633848117,
-        "narHash": "sha256-04U7Y6kfyep+ZONQxVw7n0H7gt47fS61R1lAghxwv78=",
+        "lastModified": 1634887204,
+        "narHash": "sha256-j/lAuiUvvdFKK0mwU4dn5twZkHt5VG8bzDWJhWKQ7/s=",
         "owner": "maisiliym",
         "repo": "maisiliym",
-        "rev": "8e0499a0fc33d70dc4bfe41df442c1f830b71d09",
+        "rev": "17910041a2eb1be5534aa9b29395e4ba5fdd6c45",
         "type": "github"
       },
       "original": {
@@ -1307,6 +1307,7 @@
         "ron-vim": "ron-vim",
         "rust-analyzer": "rust-analyzer",
         "sajban": "sajban",
+        "shen-mode": "shen-mode",
         "skrips": "skrips",
         "telescope-nvim": "telescope-nvim",
         "tokei-vim": "tokei-vim",
@@ -1365,6 +1366,22 @@
       "original": {
         "owner": "maisiliym",
         "repo": "sajban",
+        "type": "github"
+      }
+    },
+    "shen-mode": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1534468598,
+        "narHash": "sha256-hztzOrGopA5nAF6F81l+ZsJQx+UTbHubZpRzfdEPIQI=",
+        "owner": "NHALX",
+        "repo": "shen-mode",
+        "rev": "43726db15c2a75dc6fe02eb215561f0a80f0f61c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NHALX",
+        "repo": "shen-mode",
         "type": "github"
       }
     },
