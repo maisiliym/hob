@@ -1307,6 +1307,8 @@
         "ron-vim": "ron-vim",
         "rust-analyzer": "rust-analyzer",
         "sajban": "sajban",
+        "sbcl": "sbcl",
+        "shen": "shen",
         "shen-mode": "shen-mode",
         "skrips": "skrips",
         "telescope-nvim": "telescope-nvim",
@@ -1366,6 +1368,39 @@
       "original": {
         "owner": "maisiliym",
         "repo": "sajban",
+        "type": "github"
+      }
+    },
+    "sbcl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635473292,
+        "narHash": "sha256-EEGI81xSryJ02BVVLmxbVfjV2V0v35ytAxYlAxFwXrA=",
+        "owner": "daewok",
+        "repo": "sbcl",
+        "rev": "b984fc9ec9c5b501020a5fdf175756a7918128a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "daewok",
+        "ref": "static-executable-v2",
+        "repo": "sbcl",
+        "type": "github"
+      }
+    },
+    "shen": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635829578,
+        "narHash": "sha256-LkUETnLxSSLVYkcyN5udRqslnyowdsfh/qbJpfthxXo=",
+        "owner": "maisiliym",
+        "repo": "shen",
+        "rev": "69077322fd655905f9aac5976cb7d987e6035c6a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "maisiliym",
+        "repo": "shen",
         "type": "github"
       }
     },

@@ -338,6 +338,16 @@
       flake = false;
     };
 
+    sbcl = {
+      url = github:daewok/sbcl/static-executable-v2;
+      flake = false;
+    };
+
+    shen = {
+      url = github:maisiliym/shen;
+      flake = false;
+    };
+
     shen-mode = {
       url = github:NHALX/shen-mode;
       flake = false;
