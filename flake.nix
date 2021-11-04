@@ -155,6 +155,14 @@
       flake = false;
     };
 
+    librem5-flash-image = {
+      type = "gitlab";
+      host = "source.puri.sm";
+      owner = "Librem5";
+      repo = "librem5-flash-image";
+      flake = false;
+    };
+
     lowdown = {
       url = github:kristapsdz/lowdown;
       flake = false;
@@ -182,6 +190,17 @@
 
     maisiliym = {
       url = github:maisiliym/maisiliym;
+    };
+
+    mach-nix = {
+      url = github:DavHau/mach-nix;
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-utils.follows = "flake-utils";
+    };
+
+    mfgtools = {
+      url = github:NXPmicro/mfgtools;
+      flake = false;
     };
 
     naersk = {

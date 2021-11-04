@@ -623,6 +623,24 @@
         "type": "github"
       }
     },
+    "librem5-flash-image": {
+      "flake": false,
+      "locked": {
+        "host": "source.puri.sm",
+        "lastModified": 1631427314,
+        "narHash": "sha256-ztUfod32dLhhShOJ9Qdn9GrfGg6IWKt7dmGcUosvuGs=",
+        "owner": "Librem5",
+        "repo": "librem5-flash-image",
+        "rev": "d825f0a182593881abde862d44d4b89b6ded6bfa",
+        "type": "gitlab"
+      },
+      "original": {
+        "host": "source.puri.sm",
+        "owner": "Librem5",
+        "repo": "librem5-flash-image",
+        "type": "gitlab"
+      }
+    },
     "lir-nvim": {
       "flake": false,
       "locked": {
@@ -735,18 +753,58 @@
         "type": "github"
       }
     },
+    "mach-nix": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "pypi-deps-db": "pypi-deps-db"
+      },
+      "locked": {
+        "lastModified": 1635348539,
+        "narHash": "sha256-SXrwF/KPz8McBN8kN+HTfGphE1hiRSr1mtXSVjPJr8o=",
+        "owner": "DavHau",
+        "repo": "mach-nix",
+        "rev": "98d001727542bb6142d0ab554fc30bd591b07c73",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DavHau",
+        "repo": "mach-nix",
+        "type": "github"
+      }
+    },
     "maisiliym": {
       "locked": {
-        "lastModified": 1634887204,
-        "narHash": "sha256-j/lAuiUvvdFKK0mwU4dn5twZkHt5VG8bzDWJhWKQ7/s=",
+        "lastModified": 1635998578,
+        "narHash": "sha256-RHY2NQWALkCGnAsQYu9TYfuTjySqBq3dP812gc4gk84=",
         "owner": "maisiliym",
         "repo": "maisiliym",
-        "rev": "17910041a2eb1be5534aa9b29395e4ba5fdd6c45",
+        "rev": "4ece55f1b54fc7d263a3da356ebf98d1aef80efc",
         "type": "github"
       },
       "original": {
         "owner": "maisiliym",
         "repo": "maisiliym",
+        "type": "github"
+      }
+    },
+    "mfgtools": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635989615,
+        "narHash": "sha256-VrQlnFhUCNo2bgZKddDBD67yGhoz/ERBC0yryobT/hU=",
+        "owner": "NXPmicro",
+        "repo": "mfgtools",
+        "rev": "662689d27d38ff1e6385661402c9ae9baa2199f2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NXPmicro",
+        "repo": "mfgtools",
         "type": "github"
       }
     },
@@ -1171,6 +1229,22 @@
         "type": "github"
       }
     },
+    "pypi-deps-db": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1622970040,
+        "narHash": "sha256-u//RFnae/XMIhoy83G2uH2Qu/1LiUhVCdwwY1xj4Ufs=",
+        "owner": "DavHau",
+        "repo": "pypi-deps-db",
+        "rev": "be6591698c67a86a69c81fef72167e38d038a9fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "DavHau",
+        "repo": "pypi-deps-db",
+        "type": "github"
+      }
+    },
     "ql2nix": {
       "flake": false,
       "locked": {
@@ -1271,12 +1345,15 @@
         "hop-nvim": "hop-nvim",
         "kibord": "kibord",
         "kommentary": "kommentary",
+        "librem5-flash-image": "librem5-flash-image",
         "lir-nvim": "lir-nvim",
         "lowdown": "lowdown",
         "lsp-status-nvim": "lsp-status-nvim",
         "lspsaga-nvim": "lspsaga-nvim",
         "lua-language-server": "lua-language-server",
+        "mach-nix": "mach-nix",
         "maisiliym": "maisiliym",
+        "mfgtools": "mfgtools",
         "naersk": "naersk",
         "neogit": "neogit",
         "neovim": "neovim",
