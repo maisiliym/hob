@@ -2,6 +2,10 @@
   description = "hob - temporary bootstrap nix flake";
 
   inputs = {
+    aski = {
+      url = github:sajban/aski;
+    };
+
     alacritty = {
       url = github:alacritty/alacritty;
       flake = false;

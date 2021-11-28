@@ -96,6 +96,26 @@
         "type": "github"
       }
     },
+    "aski": {
+      "inputs": {
+        "bootstrapKLambda": "bootstrapKLambda",
+        "lispPrimitives": "lispPrimitives",
+        "shenSource": "shenSource"
+      },
+      "locked": {
+        "lastModified": 1638068936,
+        "narHash": "sha256-1nFkEn+pqY/Wq4qO3+261+CGEC6haLq0SmLPQKYbu9w=",
+        "owner": "sajban",
+        "repo": "aski",
+        "rev": "7836a24540598c562c9c7ca8b260eeda5ea2f428",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sajban",
+        "repo": "aski",
+        "type": "github"
+      }
+    },
     "astronauta-nvim": {
       "flake": false,
       "locked": {
@@ -158,6 +178,18 @@
         "owner": "DanilaMihailov",
         "repo": "beacon.nvim",
         "type": "github"
+      }
+    },
+    "bootstrapKLambda": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-E/NVPgXUdN6X9b8PJ6cmKJ2yBUZ3OtmTs6UmCDKHsnA=",
+        "path": "./KLambda",
+        "type": "path"
+      },
+      "original": {
+        "path": "./KLambda",
+        "type": "path"
       }
     },
     "bufferize-vim": {
@@ -655,6 +687,18 @@
         "owner": "tamago324",
         "repo": "lir.nvim",
         "type": "github"
+      }
+    },
+    "lispPrimitives": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-SFgHiEjXDurKofWMqA5+3QtkVstmguDLE4cOPe8CmMw=",
+        "path": "./Primitives",
+        "type": "path"
+      },
+      "original": {
+        "path": "./Primitives",
+        "type": "path"
       }
     },
     "lowdown": {
@@ -1316,6 +1360,7 @@
         "FTerm-nvim": "FTerm-nvim",
         "LuaFormatter": "LuaFormatter",
         "alacritty": "alacritty",
+        "aski": "aski",
         "astronauta-nvim": "astronauta-nvim",
         "barbar-nvim": "barbar-nvim",
         "base16-alacritty": "base16-alacritty",
@@ -1495,6 +1540,18 @@
         "owner": "NHALX",
         "repo": "shen-mode",
         "type": "github"
+      }
+    },
+    "shenSource": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-T35g38X1dkLEKr/YT2ga3MUesulRvM+kVOItlbsuV+8=",
+        "path": "./Sources",
+        "type": "path"
+      },
+      "original": {
+        "path": "./Sources",
+        "type": "path"
       }
     },
     "skrips": {
